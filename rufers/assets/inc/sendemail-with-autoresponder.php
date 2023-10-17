@@ -24,6 +24,7 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
         $subject = $_POST['contact-form-subject'];
         $phone = $_POST['contact-form-phone'];
         $message = $_POST['contact-form-message'];
+		
 
 
 		$subject = isset($subject) ? $subject : 'New Message From Contact Form';
