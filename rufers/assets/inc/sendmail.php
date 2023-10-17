@@ -5,14 +5,14 @@ require_once('phpmailer/class.smtp.php');
 
 $mail = new PHPMailer();
 
-//$mail->SMTPDebug = 3; // Enable verbose debug output
-$mail->isSMTP(); // Set mailer to use SMTP
-$mail->Host = 'steelthemes.com'; // Specify main and backup SMTP servers
-$mail->SMTPAuth = true; // Enable SMTP authentication
-$mail->Username = 'cform@steelthemes.com'; // SMTP username
-$mail->Password = 'AsDf12**'; // SMTP password
-$mail->SMTPSecure = true; // Enable TLS encryption, `ssl` also accepted
-$mail->Port = 465; // TCP port to connect to
+$mail->SMTPDebug = 3; // Enable verbose debug output
+$mail->isSMTP();                                      // Set mailer to use SMTP
+$mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
+$mail->SMTPAuth = true;                               // Enable SMTP authentication
+$mail->Username = 'testfirst1712@gmail.com';                 // SMTP username
+$mail->Password = 'cqkpalhjmtijmeza';                           // SMTP password
+$mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
+$mail->Port = 587;                                    // TCP port to connect to
 
 $message = "";
 $status = "false";
@@ -30,8 +30,8 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 
  $botcheck = $_POST['form_botcheck'];
 
- $toemail = 'templatecform@gmail.com'; // Your Email Address
- $toname = 'template_path'; // Your Name
+ $toemail = 'testfirst1712@gmail.com'; // Your Email Address
+ $toname = 'Ravikumar Modem'; // Your Name
 
  if( $botcheck == '' ) {
 
