@@ -1122,6 +1122,7 @@ li {
     background-position: center center;
     background-repeat: no-repeat;
     background-image: url(../images/icon/preloader.svg);
+    
 }
 
 .preloader-close {
