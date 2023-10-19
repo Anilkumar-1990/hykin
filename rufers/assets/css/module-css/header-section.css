@@ -1418,9 +1418,7 @@
 .main-logo-box-2 {
     position: relative;
     display: block;
-    width: 100px;
-    /* height: 85px; */
-    margin-bottom: -16px;
+   
 }
 
 .main-logo-box-2 a {
