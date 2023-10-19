@@ -1376,6 +1376,7 @@
     padding: 31px 0;
     padding-right: 20px;
     z-index: 1;
+    
 }
 
 .header-style2__left .bg-color {
@@ -1417,6 +1418,9 @@
 .main-logo-box-2 {
     position: relative;
     display: block;
+    width: 100px;
+    /* height: 85px; */
+    margin-bottom: -16px;
 }
 
 .main-logo-box-2 a {
