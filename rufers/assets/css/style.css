@@ -124,7 +124,6 @@ img {
     transition-timing-function: ease-in-out;
     transition-duration: .7s;
     transition-property: all;
-    /* width: 100px; */
 }
 
 
@@ -1123,7 +1122,6 @@ li {
     background-position: center center;
     background-repeat: no-repeat;
     background-image: url(../images/icon/preloader.svg);
-    
 }
 
 .preloader-close {
