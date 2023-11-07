@@ -571,7 +571,7 @@
 =============================================
 ***/
 .footer-area--style2 {
-    background: #213140;
+    background: #c6c4c5;
 }
 
 .footer--style2 {
@@ -603,7 +603,7 @@
 }
 
 .single-footer-widget-style2 .our-company-info .text-box p {
-    color: #b4bdc5;
+    color: #181717;
 }
 
 .emergency-contact {
@@ -670,7 +670,7 @@
     display: inline-block;
     padding-left: 20px;
     padding-right: 15px;
-    color: #b4bdc5;
+    color: #181717;
     font-size: 16px;
     font-weight: 400;
     transition: all 200ms linear;
@@ -719,7 +719,7 @@
 }
 
 .footer-subscribe-box .text p {
-    color: #b4bdc5;
+    color: #181717;
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
